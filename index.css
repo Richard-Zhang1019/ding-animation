@@ -1,0 +1,45 @@
+.header {
+  height: 500px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.footer {
+  height: 500px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.playground {
+  background-color: black;
+  height: 2000px;
+}
+
+.animate-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  position: sticky;
+  top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 220px;
+}
+
+.list-item {
+  margin: 30px;
+  background-color: red;
+  width: 100px;
+  height: 80px;
+}
